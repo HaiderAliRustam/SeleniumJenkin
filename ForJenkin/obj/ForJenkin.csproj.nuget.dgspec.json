@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\hp\\Documents\\ForJenkin\\ForJenkin\\ForJenkin\\ForJenkin.csproj",
         "projectName": "ForJenkin",
         "projectPath": "C:\\Users\\hp\\Documents\\ForJenkin\\ForJenkin\\ForJenkin\\ForJenkin.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hp\\Documents\\ForJenkin\\ForJenkin\\ForJenkin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +42,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[17.5.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
@@ -56,17 +56,23 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.2.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.2, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
